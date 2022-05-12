@@ -158,8 +158,10 @@ img {
     background-color: #3882F6;
     border-radius: 12px;
     padding: 80px;
-    width: 80%;
-    justify-content: space-between;
+    width: 60%;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .action-head {
@@ -174,13 +176,13 @@ img {
 }
 
 .action-sign-up {
-    width: 130px;
+    min-width: 130px;
+    max-height: 45px;
     font-size: 18px;
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 8px 16px;
     border-radius: 8px;
-    background: royalblue;
     border: 2px solid #F9FAF8;
     font-weight: bold;
 }
