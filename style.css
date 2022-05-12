@@ -122,6 +122,30 @@ img {
     padding: 10px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    width: 830px;
+}
+
+.quote-person {
+    font-weight: bold;
+    font-size: 26px;
+    padding-left: 25%;
+}
+
 .footer {
     display: flex;
     background-color: #1F2937;
