@@ -85,8 +85,8 @@ img {
     margin-right: 10%;
 }
 
-.container {
-    min-height: 1000px;
+.information {
+    min-height: 600px;
 }
 
 .info-header {
@@ -94,14 +94,14 @@ img {
     font-weight: 925;
     color: #1F2937;
     text-align: center;
-    margin: 32px;
-
+    margin: 36px;
 }
 
 .info-container {
     display: flex;
     justify-content: center;
     gap: 52px;
+    padding: 15px;
 }
 
 .info-img {
@@ -113,7 +113,9 @@ img {
 
 .info-text {
     font-size: 18px;
-    color: #1F2937;
+    color: #535D6A;
+    text-align: center;
+    padding: 10px;
 }
 
 .footer {
